@@ -1,9 +1,9 @@
-# Credit Risk Classification Report
+# Credit_Risk_Classification_Report
 
 ## Overview of the Analysis
 
 This anaylsis is used to identify potential high-risk(1) or healthy(0) loan applicants using their 
-loan_size, interest_rate, income, debt_to_income, num_of_accounts, derogatory_marks, and total_debt. The data was first split into training and testing data, then it was scaled using StandardScaler. Two LogisticRegression models were created one for the scaled training data and another for the oversampled(over sampling the high-risk(1) loans, in this case, to create a balance between the instances of healthy(0) and high-risk(1) loans) scaled training data. After creating and fitting the models with the data, the model was used to predict y(classification) values for the scaled features testing data.
+loan_size, interest_rate, income, debt_to_income, num_of_accounts, derogatory_marks, and total_debt. The data was first split into training and testing data, then it was scaled using StandardScaler. Two LogisticRegression models were created one for the scaled training data and another for the oversampled(over sampling the high-risk(1) loans, in this case, to create a balance between the instances of healthy(0) and high-risk(1) loans) scaled training data. After creating and fitting the models with the data, the model was used to predict y values, in this case healthy(0) or high-risk(1) loans, for the scaled features testing data.
 
 ## Results
 
